@@ -1,0 +1,9 @@
+[
+  {
+    "label": "Build and Run Raylib",
+    "command": "cmake -B build ; if ($?) { cmake --build build --config Debug } ; if ($?) { .\\build\\Debug\\MyRaylibGame.exe }",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  }
+]
