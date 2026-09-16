@@ -1,0 +1,18 @@
+# Build artifacts
+build/
+bin/
+out/
+
+# Visual Studio / MSVC files
+.vs/
+*.user
+*.vcxproj*
+*.sln
+
+# Clangd compilation database (generated locally)
+compile_commands.json
+.cache/
+
+# OS files
+Thumbs.db
+Desktop.ini
