@@ -1,0 +1,4 @@
+CompileFlags:
+  Add:
+    - -Ibuild/_deps/raylib-src/src
+    - -std=c++17
